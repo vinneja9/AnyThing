@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>계절별 맛집 추천</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+HK:wght@900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+HK:wght@900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="front">
+      <!-- 여기부터 위쪽 네비 시작-->
+      <nav>
+        <h1>계절별 맛집 추천</h1>
+        <ul>
+          <li><a href="#spring">봄</a></li>
+          <li><a href="#summer">여름</a></li>
+          <li><a href="#autumn">가을</a></li>
+          <li><a href="#winter">겨울</a></li>
+        </ul>
+      </nav>
+      <!-- 여기부터 시작 -->
+      <header>
+        <div style="padding-top: 100px; font-size: 30px">
+          계절별 특별한 음식이 필요한가요?
+        </div>
+        <div style="padding: 50px 0px; font-size: 60px">
+          당신이 원하는 모든것이 이곳에
+        </div>
+        <button class="btn" onclick="location.href='#ff'">맛집 바로보기</button>
+      </header>
+    </div>
+    <section id="service">
+      <h2 style="font-weight: bolder; font-size: 50px">SERVICES</h2>
+      <p style="color: gray; font-style: italic; font-weight: bolder">
+        한국에서 가장 독립적인 맛집 안내소
+      </p>
+      <table id="tb">
+        <tr>
+          <th>지역</th>
+          <th>가계 갯수</th>
+        </tr>
+        <tr>
+          <th>서울특별시</th>
+          <th>135,182개</th>
+        </tr>
+        <tr>
+          <th>부산광역시</th>
+          <th>54,935개</th>
+        </tr>
+        <tr>
+          <th>대구광역시</th>
+          <th>37,299</th>
+        </tr>
+        <tr>
+          <th>경기도</th>
+          <th>172,168개</th>
+        </tr>
+      </table>
+      <br />
+      <p>이렇게 많은 음식점, 언제 맛집을 찾을까?</p>
+      <br />
+      <br />
+      <p style="font-weight: bolder; font-size: 30px">
+        '계절별 맛집 추천' 사이트에서는 전국 모든곳의 맛집중 엄선된 곳만을
+        추천해드립니다.
+      </p>
+      <div id="tb_fraim">
+        <div class="tb_img">
+          <img src="./images/7602618.svg" alt="" />
+          <h2>휴무 확인</h2>
+          <p>
+            우리만의 자체적인 연결망을 통해 가계의 휴무를 빠르게 확인합니다.
+          </p>
+        </div>
+        <div class="tb_img">
+          <img src="./images/free-icon-font-phone-call-5068731.png" alt="" />
+          <h2>전화번호 확인</h2>
+          <p>
+            가계의 전화번호를 빠르게 확인하여 고객님의 예약을 손쉽게 만들어
+            드립니다.
+          </p>
+        </div>
+      </div>
+      <br />
+      <br />
+    </section>
+    <main id="ff">
+      <section
+        id="spring"
+        style="cursor: pointer"
+        onclick="location.href='spring.html'"
+      >
+        <h2>봄 맛집 추천 목록</h2>
+      </section>
+      <section
+        id="summer"
+        style="cursor: pointer"
+        onclick="location.href='summer.html'"
+      >
+        <h2>여름 맛집 추천 목록</h2>
+      </section>
+      <section
+        id="autumn"
+        style="cursor: pointer"
+        onclick="location.href='autumn.html'"
+      >
+        <h2>가을 맛집 추천 목록</h2>
+      </section>
+      <section
+        id="winter"
+        style="cursor: pointer"
+        onclick="location.href='winter.html'"
+      >
+        <h2>겨울 맛집 추천 목록</h2>
+      </section>
+    </main>
+    <footer>
+      <p><small>&copy; 2023 계절별 맛집 추천</small></p>
+    </footer>
+  </body>
+</html>
